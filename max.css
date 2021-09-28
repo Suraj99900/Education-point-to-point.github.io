@@ -146,7 +146,7 @@
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    background:linear-gradient(to top,rgb(118, 149, 170), rgba(0, 0, 0, 0.336));
+    background:linear-gradient(to top,rgb(255, 255, 255), rgb(255, 255, 255));
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -175,7 +175,7 @@
 {
     padding: 20px;
     text-align: center;
-    transform: translateY(50px);
+    transform: translateY(30px);
     transition: 0.5s;
 }
 
@@ -187,32 +187,35 @@
 
 .container .card .content h2
 {
-    font-size: 2em;
+    font-size: 20pt;
     color: rgba(51, 40, 206, 0.884);
     pointer-events: none;
 }
 
 .container .card .content img
 {
-    width: 300px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
     z-index: 1;
 }
 
 .container .card .content p
 {
     text-align: justify;
-    padding: 12px;
+    padding: 5px;
+    font-family: cursive;
 }
 
 .container .card .content a
 {
-    background: red;
+    background: rgba(230, 47, 47, 0.849);
     text-decoration: none;
-    color: black;
+    color: rgb(12, 15, 175);
+    display: block;
     width: 100px;
-    height: 50px;
-    border-radius: 10px;
+    height: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(230, 47, 47, 0.849);
 }
 
 
