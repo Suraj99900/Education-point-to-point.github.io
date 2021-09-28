@@ -8,11 +8,9 @@
  {
      width: 100vw;
      height: 60vh;
-     background-image: url("back_ground.jpg");
+     background-image: url("back_ground_1.jpg");
      background-repeat:no-repeat;
      background-size: 100vw 60vh;
-     /* filter: grayscale(50%); */
-     /* position: sticky; */
  }
  
  .navigation nav 
@@ -33,13 +31,13 @@
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
-    top: -100%;
+    top: -120%;
     transition: all 1s;
 }
 .navigation #nav_i1 li
 {
     position: relative;
-    top: 40%;
+    top: 35%;
 }
 
 .navigation #nav_i1
@@ -60,14 +58,15 @@
 
 .navigation #i2
 {
-    font-size: 50px;
+    font-size: 40px;
     position: relative;
-    left: 90%;
+    top: 10%;
+    left: 85%;
 }
 
 .navigation ul li
 {
-    padding: 0 20px;
+    padding: 0 5px;
 }
 .navigation nav ul li
 {
@@ -77,14 +76,14 @@
 .navigation ul li a
 {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     transition: all 1s;
 }
 .navigation nav ul li a
 {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 19px;
     color: rgb(255, 255, 255);
     transition: all 1s;
 }
@@ -141,11 +140,13 @@
 {
     display: block;
     
-    font-size: 40px;
+    font-size: 30px;
    
     color: lightgray;
     color-interpolation-filters: linearRGB;
 }
+
+
 
 
 .container
@@ -179,8 +180,8 @@
 
 .container .card h2
 {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 900;
     color:black;
 }
 
@@ -194,14 +195,14 @@
 
 .container .card .div_img img
 {
-    width: 250px;
-    height: 150px;
+    width: 180px;
+    height: 120px;
 }
 
 .container .card h3
 {
-    font-size: 30px;
-    padding-top: 10px;
+    font-size: 20px;
+    padding-top: 30px;
     color:rgb(0, 0, 0);
 }
 
@@ -223,11 +224,11 @@
 
 .container .card button
 {
-    width: 200px;
-    height: 40px;
+    width: 170px;
+    height: 30px;
     border-radius:10px ;
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.834);
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bolder;
     color: white;
     background-color: tomato;
